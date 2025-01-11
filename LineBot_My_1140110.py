@@ -13,7 +13,8 @@ app = Flask(__name__)
 
 # 定義LINE Messaging API的回應端點和金鑰
 LINE_REPLY_URL = "https://api.line.me/v2/bot/message/reply"
-LINE_CHANNEL_ACCESS_TOKEN = "你的LINE_CHANNEL_ACCESS_TOKEN"
+# LINE_CHANNEL_ACCESS_TOKEN = "你的LINE_CHANNEL_ACCESS_TOKEN"
+LINE_CHANNEL_ACCESS_TOKEN = "lQwjfwzHsCgy9CMTwGhYzRtAeGoin8/rpevfc7Cd1vlR7ZNJatZNogAENKtmQqrScaNps7U3ABG8qYkZ5cPWCgsUAoCRCrgdSP5SuWusj4RaHkn0+TnJMmGLrkMvfwY/Se7NvRQn30L6C85OweiPsAdB04t89/1O/w1cDnyilFU="
 
 # 設定請求的標頭
 HEADERS = {
